@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1920"
+   height="1080"
+   viewBox="0 0 508.00002 285.75"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (1.0.2+r75+1)"
+   sodipodi:docname="svg.svg"
+   inkscape:export-filename="/img/export/svg.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="363.88336"
+     inkscape:cy="315.21413"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+    <circle
+       style="fill:#ff0000"
+       cx="13"
+       cy="8"
+       r="1"
+       id="kolko" />
+    <path
+       d="m 15.695256,7.9687422 h 6.170598 L 19.828957,7.2334489"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="wprawo" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 12.954589,10.031145 v 5.754321 l 0.735295,-2.036897"
+       id="wdol" />
+    <text
+       x="12.256155"
+       y="19.226156"
+       id="y"><tspan
+         x="12.256155"
+         y="19.226156"
+         id="tspan16">y</tspan></text>
+    <text
+       x="23.397057"
+       y="8.8981695"
+       id="x"><tspan
+         x="23.397057"
+         y="8.8981695"
+         id="tspan19">x</tspan></text>
+    <text
+       x="13.968326"
+       y="12.650131"
+       id="00"><tspan
+         x="13.968326"
+         y="12.650131"
+         id="tspan22">(0,0)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px"
+       x="256.10248"
+       y="15.805328"
+       id="tytul">SVG</text>
+    <rect
+       width="20"
+       height="4"
+       x="15"
+       y="25"
+       rx="7"
+       ry="1"
+       stroke="#0000ff"
+       fill="#ffff00"
+       id="rect" />
+    <text
+       x="37.763607"
+       y="26.769039"
+       id="textrect"><tspan
+         x="37.763607"
+         y="26.769039"
+         id="tspan34">&lt;<tspan
+   style="font-weight:bold;fill:#ff0000"
+   id="tspan1509">rect</tspan><tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan214">x</tspan>= &quot;15&quot; <tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan1060">y</tspan>=&quot;25&quot; <tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan1067">rx</tspan>=&quot;7&quot; <tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan1069">ry</tspan>=&quot;1&quot; <tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan1084">width</tspan>=&quot;20&quot; <tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan1086">height</tspan>=&quot;4&quot;</tspan><tspan
+         x="37.763607"
+         y="31.178764"
+         id="tspan37"><tspan
+   style="font-weight:bold;fill:#ff00ff"
+   id="tspan1095">fill</tspan>=&quot;yellow&quot; stroke=&quot;blue&quot;/&gt;</tspan></text>
+    <circle
+       cx="20"
+       cy="38"
+       r="5"
+       opacity="0.2"
+       id="circle" />
+    <text
+       x="37.801018"
+       y="36.127537"
+       id="textcircle"><tspan
+         x="37.801018"
+         y="36.127537"
+         id="tspan45">&lt;<tspan
+   style="font-weight:bold;fill:#ff0000"
+   id="tspan9372">circle</tspan><tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan9376">cx</tspan>=&quot;20&quot; <tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan9374">cy</tspan>=&quot;38&quot; <tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan9337">r</tspan>=&quot;5&quot;</tspan><tspan
+         x="37.801018"
+         y="40.537262"
+         id="tspan48"><tspan
+   style="font-weight:bold;fill:#00ff00"
+   id="tspan9421">opacity</tspan>=&quot;0.2&quot;/&gt;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="20.428686"
+       y="109.31648"
+       id="text955"><tspan
+         sodipodi:role="line"
+         x="20.428686"
+         y="109.31648"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan953">&lt;<tspan
+   style="font-weight:bold"
+   id="tspan1525">path</tspan> d=&quot;M 20 230 Q 40 205, 50 230 T 90230&quot;/&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="20.428686"
+         y="113.7262"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan961">Capital letters: absolute coordinates</tspan><tspan
+         sodipodi:role="line"
+         x="20.428686"
+         y="118.13593"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan963">small letters: relative coordinates</tspan><tspan
+         sodipodi:role="line"
+         x="20.428686"
+         y="122.54565"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan965">coordinates are always unitless</tspan><tspan
+         sodipodi:role="line"
+         x="20.428686"
+         y="126.95538"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan967">MoveTo: <tspan
+   style="font-weight:bold"
+   id="tspan1553">M</tspan> x y | m dx dy</tspan><tspan
+         sodipodi:role="line"
+         x="20.428686"
+         y="131.36511"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan969">LineTo: <tspan
+   style="font-weight:bold"
+   id="tspan1555">L</tspan> x y | l dx dy</tspan><tspan
+         sodipodi:role="line"
+         x="20.428686"
+         y="135.77483"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan971">Horizontal line: <tspan
+   style="font-weight:bold"
+   id="tspan1557">H</tspan> x | h dx</tspan><tspan
+         sodipodi:role="line"
+         x="20.428686"
+         y="140.18456"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan973">Vertical Line: <tspan
+   style="font-weight:bold"
+   id="tspan1559">V</tspan> y | v dy</tspan><tspan
+         sodipodi:role="line"
+         x="20.428686"
+         y="144.59428"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan975">Close Path: <tspan
+   style="font-weight:bold"
+   id="tspan1561">Z</tspan> | z</tspan><tspan
+         sodipodi:role="line"
+         x="20.428686"
+         y="149.00401"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan977">Bezier: <tspan
+   style="font-weight:bold"
+   id="tspan1563">C</tspan> x1 y1, x2 y2, x y // Cubic; x,y - line end; x1,y1,x2,y2 - control points</tspan><tspan
+         sodipodi:role="line"
+         x="20.428686"
+         y="153.41373"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan979">Bezier: <tspan
+   style="font-weight:bold"
+   id="tspan1565">S</tspan> x2 y2, x y // shortcut for C: if S follows C or S, =&gt; x1,y1 reflect the previous x2,y2; otherwise x1=x2,y1=y2 (same control points)</tspan><tspan
+         sodipodi:role="line"
+         x="20.428686"
+         y="157.82346"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan981">Bezier: <tspan
+   style="font-weight:bold"
+   id="tspan1567">Q</tspan> x1 y1, x y // Quadratic; x1,y1 - control point; x,y - line end</tspan><tspan
+         sodipodi:role="line"
+         x="20.428686"
+         y="162.23318"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan983">Bezier: <tspan
+   style="font-weight:bold"
+   id="tspan1569">T</tspan> x y // shortcut for Q; control point inferred from the previous one; if not after Q or T, control point = previous point (draws a line)</tspan><tspan
+         sodipodi:role="line"
+         x="20.428686"
+         y="166.64291"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan985">Arc: <tspan
+   style="font-weight:bold"
+   id="tspan1571">A</tspan> rx ry kierunek-osi-x 0-łuk-&lt;-180-stopni-1-otherwise large-arc-flag 0-łuk-w-lewo-1-łuk-w-prawo x y rx,ry elliptical radius</tspan><tspan
+         sodipodi:role="line"
+         x="20.428686"
+         y="171.05263"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan987" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="254.57895"
+       y="220.02055"
+       id="text1019"><tspan
+         sodipodi:role="line"
+         x="254.57895"
+         y="220.02055"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1017">https://developer.mozilla.org/en-US/docs/Web/SVG</tspan><tspan
+         sodipodi:role="line"
+         x="254.57895"
+         y="224.43028"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1140">https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute</tspan><tspan
+         sodipodi:role="line"
+         x="254.57895"
+         y="228.84001"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1142">https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started</tspan><tspan
+         sodipodi:role="line"
+         x="254.57895"
+         y="233.24974"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1144">https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Fills_and_Strokes</tspan><tspan
+         sodipodi:role="line"
+         x="254.57895"
+         y="237.65944"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1146">https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Gradients</tspan><tspan
+         sodipodi:role="line"
+         x="254.57895"
+         y="242.06917"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1148">https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts</tspan><tspan
+         sodipodi:role="line"
+         x="254.57895"
+         y="246.4789"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1150">https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Patterns</tspan><tspan
+         sodipodi:role="line"
+         x="254.57895"
+         y="250.88863"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1152">https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Transformations</tspan><tspan
+         sodipodi:role="line"
+         x="254.57895"
+         y="255.29836"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1154">https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Clipping_and_masking</tspan><tspan
+         sodipodi:role="line"
+         x="254.57895"
+         y="259.7081"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1156">https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Other_content_in_SVG</tspan><tspan
+         sodipodi:role="line"
+         x="254.57895"
+         y="264.11783"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1158">https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Filter_effects</tspan><tspan
+         sodipodi:role="line"
+         x="254.57895"
+         y="268.52756"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1160">https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_fonts</tspan><tspan
+         sodipodi:role="line"
+         x="254.57895"
+         y="272.93726"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1162">https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_Image_Tag</tspan><tspan
+         sodipodi:role="line"
+         x="254.57895"
+         y="277.34698"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1164" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="238.63803"
+       y="127.9897"
+       id="text1194"><tspan
+         sodipodi:role="line"
+         x="238.63803"
+         y="127.9897"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1216">&lt;<tspan
+   style="font-weight:bold"
+   id="tspan1521">g</tspan> fill=&quot;red&quot;&gt; grupa</tspan><tspan
+         sodipodi:role="line"
+         x="238.63803"
+         y="132.39943"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1218">  &lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="238.63803"
+         y="136.80914"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1220">  &lt;rect x=&quot;20&quot; y=&quot;0&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="238.63803"
+         y="141.21887"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1222">&lt;/g&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="238.63803"
+         y="145.6286"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1224" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="387.03809"
+       y="12.548962"
+       id="text1238"><tspan
+         sodipodi:role="line"
+         x="387.03809"
+         y="12.548962"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1236">&lt;<tspan
+   style="font-weight:bold"
+   id="tspan1523">svg</tspan> width=50 height=50&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="387.03809"
+         y="16.958687"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1254">  &lt;defs&gt;&lt;style&gt;&lt;![CDATA[ ... ]]&gt;&lt;/style&gt;&lt;/defs&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="387.03809"
+         y="21.368412"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1256">  ...</tspan><tspan
+         sodipodi:role="line"
+         x="387.03809"
+         y="25.778137"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1258">&lt;/svg&gt;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="132.61244"
+       y="101.90116"
+       id="text1270"><tspan
+         sodipodi:role="line"
+         x="132.61244"
+         y="101.90116"
+         style="font-weight:bold;font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1302">stroke-dasharray=&quot;10 4 20 5&quot;/&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="132.61244"
+         y="106.31088"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1308"><tspan
+   style="font-weight:bold"
+   id="tspan1547">fill-rule</tspan>: <tspan
+   style="font-weight:bold"
+   id="tspan1549">stroke-miterlimit</tspan>: <tspan
+   style="font-weight:bold"
+   id="tspan1551">stroke-dashoffset</tspan>:</tspan><tspan
+         sodipodi:role="line"
+         x="132.61244"
+         y="110.72061"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1310" /><tspan
+         sodipodi:role="line"
+         x="132.61244"
+         y="115.13033"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1286" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="34.52388"
+       y="174.81691"
+       id="text1351"><tspan
+         sodipodi:role="line"
+         x="34.52388"
+         y="174.81691"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1349">&lt;text x=&quot;10&quot; y=&quot;10&quot;&gt;Hello World!&lt;/text&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="34.52388"
+         y="179.22664"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1407">text-anchor: start | middle | end | inherit</tspan><tspan
+         sodipodi:role="line"
+         x="34.52388"
+         y="183.63635"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1409">fill, stroke, gradients, patterns</tspan><tspan
+         sodipodi:role="line"
+         x="34.52388"
+         y="188.04608"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1411">font-family, font-style, font-weight, font-variant, font-stretch, font-size, font-size-adjust,</tspan><tspan
+         sodipodi:role="line"
+         x="34.52388"
+         y="192.45581"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1415">kerning, letter-spacing, word-spacing, text-decoration</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="34.610374"
+       y="200.21266"
+       id="text1429"><tspan
+         sodipodi:role="line"
+         x="34.610374"
+         y="200.21266"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1475">&lt;text&gt;...&lt;<tspan
+   style="font-weight:bold"
+   id="tspan1507">tspan</tspan> font-weight=&quot;bold&quot; fill=&quot;red&quot;&gt;This is bold and red&lt;/tspan&gt;...&lt;/text&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="34.610374"
+         y="204.62239"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1477">x, y: new x/y position; can be a list of numbers, applied to individual characters</tspan><tspan
+         sodipodi:role="line"
+         x="34.610374"
+         y="209.0321"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1479">dx, dy: offset; can be a list</tspan><tspan
+         sodipodi:role="line"
+         x="34.610374"
+         y="213.44183"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1481">rotate: &lt;degree&gt;+ // a list =&gt; rotates individual characters, last one applies to the rest</tspan><tspan
+         sodipodi:role="line"
+         x="34.610374"
+         y="217.85156"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1483">textLength: docelowa długość</tspan><tspan
+         sodipodi:role="line"
+         x="34.610374"
+         y="222.26129"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1495">&lt;text&gt;&lt;<tspan
+   style="font-weight:bold"
+   id="tspan1573">tref</tspan> xlink:href=&quot;#example&quot; /&gt;&lt;/text&gt; &lt;text id=&quot;example&quot;&gt;przykładowy tekst&lt;/text&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="34.610374"
+         y="226.67101"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1497">&lt;text&gt;&lt;<tspan
+   style="font-weight:bold"
+   id="tspan1585">textPath</tspan> xlink:href=&quot;#my_path&quot;&gt;narysuj tekst wzdłuż krzywej&lt;/textPath&gt;&lt;/text&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="34.610374"
+         y="231.08073"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1501">&lt;path id=&quot;my_path&quot; d=&quot;M 20,20 C 40,40 80,40 100,20&quot; /&gt; </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="33.656284"
+       y="245.79909"
+       id="text1609"><tspan
+         sodipodi:role="line"
+         x="33.656284"
+         y="245.79909"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1607">&lt;defs&gt;&lt;<tspan
+   style="font-weight:bold"
+   id="tspan1684">clipPath</tspan> id=&quot;myclip&quot;&gt;&lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;&lt;/clipPath&gt;&lt;/defs&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="33.656284"
+         y="250.20882"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1631">&lt;circle cx=&quot;150&quot; cy=&quot;150&quot; r=&quot;150&quot; <tspan
+   style="font-weight:bold"
+   id="tspan1686">clip-path</tspan>=&quot;url(#myclip)&quot;/&gt;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="283.35297"
+       y="175.28297"
+       id="text1643"><tspan
+         sodipodi:role="line"
+         x="283.35297"
+         y="175.28297"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1641"><tspan
+   style="font-weight:bold"
+   id="tspan1670">transform</tspan>: transformacje są umieszczane w tym atrybucie, oddzielone spacjami</tspan><tspan
+         sodipodi:role="line"
+         x="283.35297"
+         y="179.6927"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1654"><tspan
+   style="font-weight:bold"
+   id="tspan1672">translate</tspan>(x,y) moves &lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;10&quot; height=&quot;10&quot; transform=&quot;translate(30,40)&quot; /&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="283.35297"
+         y="184.10243"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1656"><tspan
+   style="font-weight:bold"
+   id="tspan1674">rotate</tspan>(degrees) &lt;rect x=&quot;20&quot; y=&quot;20&quot; width=&quot;20&quot; height=&quot;20&quot; transform=&quot;rotate(45)&quot; /&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="283.35297"
+         y="188.51216"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1658"><tspan
+   style="font-weight:bold"
+   id="tspan1676">skewX</tspan>(angle)</tspan><tspan
+         sodipodi:role="line"
+         x="283.35297"
+         y="192.92186"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1660"><tspan
+   style="font-weight:bold"
+   id="tspan1678">skewY</tspan>(angle)</tspan><tspan
+         sodipodi:role="line"
+         x="283.35297"
+         y="197.33159"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1662"><tspan
+   style="font-weight:bold"
+   id="tspan1680">scale</tspan>(x,y)</tspan><tspan
+         sodipodi:role="line"
+         x="283.35297"
+         y="201.74132"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1664"><tspan
+   style="font-weight:bold"
+   id="tspan1682">matrix</tspan>(a,b,c,d,e,f)</tspan><tspan
+         sodipodi:role="line"
+         x="283.35297"
+         y="206.15105"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1666">&lt;g transform=&quot;scale(2)&quot;&gt;&lt;rect width=&quot;50&quot; height=&quot;50&quot; /&gt;&lt;/g&gt; new coordinate system inside the elemen</tspan><tspan
+         sodipodi:role="line"
+         x="283.35297"
+         y="210.56078"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1668" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="119.4016"
+       y="117.60669"
+       id="text1711"><tspan
+         sodipodi:role="line"
+         x="119.4016"
+         y="117.60669"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1709">svg can be embedded in svg; using viewBox, width, height one can establish a new coordinate system</tspan><tspan
+         sodipodi:role="line"
+         x="119.4016"
+         y="122.01641"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1725">&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="119.4016"
+         y="126.42614"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1727">  &lt;svg width=&quot;100&quot; height=&quot;100&quot; viewBox=&quot;0 0 50 50&quot;&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="119.4016"
+         y="130.83586"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1729">    &lt;rect width=&quot;50&quot; height=&quot;50&quot; /&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="119.4016"
+         y="135.24559"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1731">  &lt;/svg&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="119.4016"
+         y="139.65532"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1733">&lt;/svg&gt; // effect similar to above (100px x 100px)</tspan><tspan
+         sodipodi:role="line"
+         x="119.4016"
+         y="144.06503"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1735" /></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 21.865854,7.9687422 19.688405,8.8299399"
+       id="path1115"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 12.954589,15.785466 12.298418,13.537714"
+       id="path1119"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="173.77322"
+       y="60.827995"
+       id="text1105"><tspan
+         sodipodi:role="line"
+         x="173.77322"
+         y="60.827995"
+         style="font-size:3.52778px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan1103">Units: pt, cm, %, … no suffix: user unit (often px)</tspan></text>
+    <ellipse
+       cx="25"
+       cy="48"
+       rx="10"
+       ry="3"
+       fill-opacity="0.5"
+       id="ellipse166" />
+    <text
+       x="37.413654"
+       y="48"
+       xml:space="default"
+       id="text176"><tspan
+         sodipodi:role="line"
+         x="37.413654"
+         y="48"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan9399">&lt;<tspan
+   style="font-weight:bold;fill:#ff0000"
+   id="tspan9423">ellipse</tspan><tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan9393">cx</tspan>=&quot;25&quot; <tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan9395">cy</tspan>=&quot;48&quot; <tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan9397">rx</tspan>=&quot;10&quot; <tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan317">ry</tspan>=&quot;3&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="37.413654"
+         y="52.409725"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan9401"><tspan
+   style="font-weight:bold;fill:#ff00ff"
+   id="tspan9425">fill-opacity</tspan>=&quot;0.5&quot;/&gt;</tspan></text>
+    <line
+       x1="14.204398"
+       y1="57.929382"
+       x2="29.204399"
+       y2="62.929382"
+       stroke-width="4"
+       stroke="#ff00ff"
+       stroke-linecap="square"
+       id="line170" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="36.758263"
+       y="61.128056"
+       id="text219"><tspan
+         sodipodi:role="line"
+         x="36.758263"
+         y="61.128056"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan229">&lt;<tspan
+   style="font-weight:bold;fill:#ff0000"
+   id="tspan251">line</tspan> <tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan253">x1</tspan>=&quot;10&quot; <tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan255">y1</tspan>=&quot;55&quot; <tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan257">x2</tspan>=&quot;25&quot; <tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan259">y2</tspan>=&quot;60&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="36.758263"
+         y="65.537781"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan233">stroke=&quot;magenta&quot; stroke-width=&quot;4&quot; <tspan
+   style="font-weight:bold;fill:#008080"
+   id="tspan495">stroke-linecap</tspan>=&quot;<tspan
+   style="fill:#008080"
+   id="tspan509">square</tspan>&quot;</tspan></text>
+    <polyline
+       points="10 65 25 70 25 65"
+       stroke="#008000"
+       stroke-width="4"
+       stroke-linecap="round"
+       stroke-linejoin="bevel"
+       stroke-opacity="0.7"
+       id="polyline182"
+       transform="translate(4.2043985,2.929381)" />
+    <polygon
+       points="10,80 25,88 25,80 "
+       stroke="#ff0000"
+       stroke-width="4"
+       stroke-linejoin="mitter"
+       fill="none"
+       stroke-linecap="butt"
+       id="polygon184"
+       transform="translate(4.2043985,2.929381)" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="36.384087"
+       y="70.292984"
+       id="text295"><tspan
+         sodipodi:role="line"
+         x="36.384087"
+         y="70.292984"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan285">&lt;<tspan
+   style="font-weight:bold;fill:#ff0000"
+   id="tspan297">polyline</tspan> <tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan301">points</tspan>=&quot;10 65 25 70 25 65&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="36.384087"
+         y="74.702705"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan305"><tspan
+   style="font-weight:bold;fill:#00ffff"
+   id="tspan442">stroke</tspan>=&quot;green&quot; <tspan
+   style="font-weight:bold;fill:#00ffff"
+   id="tspan446">stroke-width</tspan>=&quot;4&quot;  <tspan
+   style="font-weight:bold;fill:#00ffff"
+   id="tspan479">stoke-opacity</tspan>=&quot;0.7&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="36.384087"
+         y="79.112434"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan470">stroke-linejoin=&quot;<tspan
+   style="fill:#0000ff"
+   id="tspan519">bevel</tspan>&quot; stroke-linecap=&quot;<tspan
+   style="fill:#008080"
+   id="tspan390">round</tspan>&quot; </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="35.874569"
+       y="83.783676"
+       id="text246"><tspan
+         sodipodi:role="line"
+         x="35.874569"
+         y="83.783676"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan232">&lt;<tspan
+   style="font-weight:bold;fill:#ff0000"
+   id="tspan228">polygon</tspan> <tspan
+   style="font-weight:bold;fill:#008000"
+   id="tspan230">points</tspan>=&quot;10,80 25,88 25,80&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="35.874569"
+         y="88.193398"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan238">fill=&quot;<tspan
+   style="fill:#ff00ff"
+   id="tspan370">none</tspan>&quot; stroke=&quot;red&quot; stroke-width=&quot;t&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="35.874569"
+         y="92.603127"
+         style="font-size:3.52778px;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan501"><tspan
+   style="font-weight:bold;fill:#0000ff"
+   id="tspan483">stroke-linejoin</tspan>=&quot;<tspan
+   style="font-weight:bold;fill:#0000ff"
+   id="tspan511">mitter</tspan>&quot; stroke-linecap=&quot;<tspan
+   style="fill:#008080"
+   id="tspan507">butt</tspan>&quot;</tspan></text>
+  </g>
+</svg>
