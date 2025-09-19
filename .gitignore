@@ -11,3 +11,5 @@ package-lock.json
 .idea/
 **/*.pyc
 **/__pycache__/
+*.beam
+*.dump
