@@ -8,9 +8,10 @@ META-INF/
 node_modules/
 package-lock.json
 *.js
-.idea/
 **/*.pyc
 **/__pycache__/
 *.beam
 *.dump
 gmvn
+elm-stuff/
+index.html
