@@ -1,0 +1,336 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <title>Sudoku</title>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+
+  <style type="text/css">
+    /* colors */
+    body                 { background-color: rgb(75%,75%,75%) }
+    h1                   { background-color: rgb(25%,100%,25%) }
+
+    /* general rules */
+    body           { position: relative
+                   ; padding: 0
+                   ; margin: 0
+                   ; font-family:arial, sans-serif
+                   ; text-align: center
+                   ; color: black
+                   }
+
+    a              { display: block
+                   ; text-decoration: none
+                   ; color: black
+                   }
+
+    /* positions */
+    div#content    { position: relative
+                   ; width: 900px
+                   ; margin: 20px auto 0 auto
+                   }
+
+    div#navig      { position: absolute
+                   ; left: 70px
+                   ; text-align: right
+                   }
+
+    /* navigation buttons*/
+    div#navig a    { padding: 10px
+                   ; margin: 0
+                   ; text-align: center
+                   ; width: 150px
+                   }
+    div#navig a    { background-color: rgb(55%,55%,55%)
+                   ; border-top:    4px solid rgb(65%,65%,65%)
+                   ; border-right:  4px solid rgb(45%,45%,45%)
+                   ; border-bottom: 4px solid rgb(45%,45%,45%)
+                   ; border-left:   4px solid rgb(65%,65%,65%)
+                   }
+    div#navig a:hover    { background-color: rgb(50%,50%,50%)
+                         ; border-top:    4px solid rgb(60%,60%,60%)
+                         ; border-right:  4px solid rgb(40%,40%,40%)
+                         ; border-bottom: 4px solid rgb(40%,40%,40%)
+                         ; border-left:   4px solid rgb(60%,60%,60%)
+                         }
+    div#navig a:active   { background-color: rgb(50%,50%,50%)
+                         ; border-top:    4px solid rgb(40%,40%,40%)
+                         ; border-right:  4px solid rgb(60%,60%,60%)
+                         ; border-bottom: 4px solid rgb(60%,60%,60%)
+                         ; border-left:   4px solid rgb(40%,40%,40%)
+                         }
+
+    /* message box */
+    .msgbox { position:absolute
+            ; top: 240px
+            ; left: 0
+            ; width: 150px
+            ; height: 100px
+            ; padding: 12px
+            ; vertical-align: middle
+            ; border: 1px dotted black
+            ; font-size: 12px
+            ; text-align: center
+            }
+    div#navig a span.msgbox { display: none }
+    div#navig a:hover span.msgbox { display: block; z-index:10; background-color: rgb(75%,75%,75%) }
+    div#navig span#defaultmsg { display: block }
+
+    h1             { padding: 20px
+                   ; margin: 0
+                   }
+
+    table          { border-style:solid
+                   ; border-color:black
+                   ; border-width:3px
+                   ; border-collapse:collapse
+                   ; margin-left: auto
+                   ; margin-right: auto
+                   }
+    td             { height: 40px
+                   ; width: 40px
+                   ; border-style:solid
+                   ; text-align:center
+                   ; margin: 0
+                   ; padding: 0
+                   }
+    td.box_center  { border-width: 1px 1px 1px 1px }
+    td.box_ne      { border-width: 2px 1px 1px 2px }
+    td.box_n       { border-width: 2px 1px 1px 1px }
+    td.box_nw      { border-width: 2px 2px 1px 1px }
+    td.box_w       { border-width: 1px 2px 1px 1px }
+    td.box_sw      { border-width: 1px 2px 2px 1px }
+    td.box_s       { border-width: 1px 1px 2px 1px }
+    td.box_se      { border-width: 1px 1px 2px 2px }
+    td.box_e       { border-width: 1px 1px 1px 2px }
+    div            { margin: 0
+                   ; padding: 0
+                   }
+    td a           { padding: 0
+                   ; font-size: 20px
+                   ; line-height: 40px
+                   ; font-weight: bold
+                   ; vertical-align: middle
+                   ; background-color: white
+                   }
+    td a.distinguished   { background-color: pink }
+    td a.regular:hover   { background-color: yellow }
+  </style>
+
+<script>
+
+  function Sudoku() {
+    this.board = Array();
+    var j;
+    for (j=0; j<81; j++) this.board[j] = 0;
+    this.savedBoard = Array();
+    for (j=0; j<81; j++) this.savedBoard[j] = 0;
+  }
+  
+  Sudoku.prototype.generateBoard = function() {
+    var j;
+    this.cleanBoard();
+    this.board = new Array(1,2,3,4,5,6,7,8,9
+                          ,4,5,6,7,8,9,1,2,3 
+                          ,7,8,9,1,2,3,4,5,6
+                          ,2,1,4,3,6,5,8,9,7
+                          ,3,6,5,8,9,7,2,1,4 
+                          ,8,9,7,2,1,4,3,6,5 
+                          ,5,3,1,6,4,2,9,7,8 
+                          ,6,4,2,9,7,8,5,3,1 
+                          ,9,7,8,5,3,1,6,4,2);
+    for (j=0; j<99; j++) this.swapSomething();
+    for (j=0; j<81; j++) if (Math.random() >= 0.4) this.setFieldValue(j,0);
+    this.saveBoard();
+    this.showBoard();
+  }
+
+  Sudoku.prototype.swap = function(j,k) {
+    var tmp;
+    if (j==k) return;
+    tmp = this.getFieldValue(j);
+    this.setFieldValue(j,this.getFieldValue(k));
+    this.setFieldValue(k,tmp);
+  }
+
+  Sudoku.prototype.swapRows = function(p,r) {
+    if (p==r) return;
+    for (var j=0; j<9; j++) this.swap(9*p+j,9*r+j);
+  }
+
+  Sudoku.prototype.swapCols = function(p,r) {
+    if (p==r) return;
+    for (var j=0; j<9; j++) this.swap(9*j+p,9*j+r);
+  }
+
+  Sudoku.prototype.swapSomething = function() {
+    var row_col = Math.random();
+    var sector = Math.floor(Math.random()*3);
+    var row_col_1 = 3*sector + Math.floor(Math.random()*3);
+    var row_col_2 = 3*sector + Math.floor(Math.random()*3);
+    if (row_col >= 0.5) {
+      this.swapRows(row_col_1,row_col_2);
+    }
+    else {
+      this.swapCols(row_col_1,row_col_2);
+    }
+  }
+
+  Sudoku.prototype.saveBoard = function() {
+    var j;
+    for (j=0; j<81; j++) {
+      this.savedBoard[j] = this.board[j];
+    }
+    this.showBoard();
+  }
+
+  Sudoku.prototype.restoreBoard = function() {
+    var j;
+    for (j=0; j<81; j++) {
+      this.board[j] = this.savedBoard[j];
+      if (this.savedBoard[j] == null) this.board[j] = 0;
+      else this.board[j] = this.savedBoard[j];
+    }
+    this.showBoard();
+  }
+
+  Sudoku.prototype.cleanBoard = function() {
+    var j;
+    for (j=0; j<81; j++) {
+      this.board[j] = 0;
+      this.savedBoard[j] = 0;
+    }
+    this.showBoard();
+  }
+
+  Sudoku.prototype.showBoard = function() {
+    for (j=0; j<81; j++) this.updateField(j);
+  }
+
+  Sudoku.prototype.getField = function(fieldNum) {
+    return document.getElementById("b" + fieldNum);
+  }
+
+  Sudoku.prototype.getFieldValue = function(fieldNum) {
+    return this.board[fieldNum]
+  }
+
+  Sudoku.prototype.setFieldValue = function(fieldNum,value) {
+    this.board[fieldNum] = value
+  }
+
+  Sudoku.prototype.updateField = function(fieldNum) {
+    var field = this.getField(fieldNum);
+    var value = this.board[fieldNum];
+    var savedValue = this.savedBoard[fieldNum];
+    if (value == "0") value = "&nbsp;";
+    var classStr = ( savedValue == 0 ? "regular" : "distinguished");
+    field.className = classStr;
+    field.innerHTML = value;
+  }
+
+  Sudoku.prototype.is_solution_ok = function(pos) {
+    if (this.board[pos] == 0) return true;
+    var row = Math.floor(pos / 9)
+    var col = pos % 9
+    var square_beg = 9*(Math.floor(row/3))*3 + (Math.floor(col/3))*3
+    var res = true
+    var j
+    for (j=0;  j<=8;  j++) { res = res && (row*9+j == pos || this.board[row*9+j] != this.board[pos]) }
+    for (j=0;  j<=8;  j++) { res = res && (j*9+col == pos || this.board[j*9+col] != this.board[pos]) }
+    for (j=0;  j<=2;  j++) { res = res && (square_beg+j == pos || this.board[square_beg+j] != this.board[pos]) }
+    for (j=9;  j<=11; j++) { res = res && (square_beg+j == pos || this.board[square_beg+j] != this.board[pos]) }
+    for (j=18; j<=20; j++) { res = res && (square_beg+j == pos || this.board[square_beg+j] != this.board[pos]) }
+    return res
+  }
+
+  Sudoku.prototype.find_solution = function(position) {
+    var digit
+    if (position >= 81) {
+      return true;
+    } else if (this.board[position] != 0) {
+      return this.find_solution(position+1);
+    } else {
+      for (digit=1;digit<=9;digit++) {
+        this.board[position] = digit
+        if (this.is_solution_ok(position)) {
+          if (this.find_solution(position+1)) {
+            return true;
+          }
+        }
+      }
+      this.board[position] = "0";
+      return false;
+    }
+  }
+
+  Sudoku.prototype.findSolution = function() {
+    result = this.find_solution(0)
+    if (!result) alert("Niepowodzenie!");
+    this.showBoard()
+  }
+
+  Sudoku.prototype.toggleField = function(fieldNum) {
+    var savedValue = this.savedBoard[fieldNum];
+    if (savedValue > 0) return;
+    var oldValue = this.getFieldValue(fieldNum)
+    var newValue = oldValue;
+    do {
+      newValue = (1 + newValue) % 10;
+      this.setFieldValue(fieldNum,newValue)
+    } while (!this.is_solution_ok(fieldNum))
+    this.updateField(fieldNum)
+  }
+
+  sudoku = new Sudoku();
+
+</script>
+
+  </head>
+  <body onload="sudoku.showBoard()">
+    <h1>Sudoku</h1>
+
+    <div id="content">
+
+    <div id="navig">
+    <a id="cleanboard"    href="javascript:sudoku.cleanBoard()">Wyczy&#x15b;&#x107; plansz&#x119;
+      <span class="msgbox">Czy&#x15b;ci plansz&#x119; do zera</span>
+    </a>
+    <a id="saveboard" href="javascript:sudoku.saveBoard()">Zapami&#x119;taj plansz&#x119;
+      <span class="msgbox">Zapami&#x119;tuje plansz&#x119;. Mo&#x17c;na powr&#xf3;ci&#x107; do tego uk&#x142;adu za pomoc&#x105; przycisku Przywr&#xf3;&#x107; plansz&#x119;</span>
+    </a>
+    <a id="restoreboard" href="javascript:sudoku.restoreBoard()">Przywr&#xf3;&#x107; plansz&#x119;
+      <span class="msgbox">Powraca do zapami&#x119;tanego uk&#x142;adu planszy</span>
+    </a>
+    <a id="findsolution" href="javascript:sudoku.findSolution()">Szukaj rozwi&#x105;zania
+      <span class="msgbox">Szuka rozwi&#x105;zania przy aktualnym stanie planszy</span>
+    </a>
+    <a id="generateboard" href="javascript:sudoku.generateBoard()">Generuj &#x142;amig&#x142;&#xf3;wk&#x119;
+      <span class="msgbox">Generuje now&#x105; &#x142;amig&#x142;&#xf3;wk&#x119;</span>
+    </a>
+    <span id="defaultmsg" class="msgbox">W celu zmiany warto&#x15b;ci w polu planszy nale&#x17c;y klikn&#x105;&#x107; na to pole. Kolejne klikni&#x119;cia powoduj&#x105; zmian&#x119; do kolejnej dopuszczalnej warto&#x15b;ci.</span>
+    </div>
+
+    <table>
+
+    <script>
+      var BOX_STYLE_CLASSES = [['ne','n','nw'],['e','center','w'],['se','s','sw']]
+      for (var row = 0; row <= 8; row++) {
+        document.write('<tr>')
+        for (var column = 0; column <= 8; column++) {
+          document.write('<td class="box_' + BOX_STYLE_CLASSES[row % 3][column % 3] + '">')
+          document.write('<a id="b' + (column + 9*row) + '" href="javascript:void sudoku.toggleField(' + (column + 9*row) + ')"/>')
+          document.write('</td>')
+        }
+        document.write('</tr>')
+      }
+    </script>
+      
+    </table>
+
+    </div>
+
+  </body>
+</html>

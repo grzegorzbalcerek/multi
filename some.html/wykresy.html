@@ -1,0 +1,80 @@
+<xml version="1.0" encoding="utf-8"?>
+<html>
+<head>
+  <title>Wykresy</title>
+  <style type="text/css">
+    /* colors */
+    body                 { background-color: rgb(75%,75%,75%) }
+    h1                   { background-color: rgb(25%,100%,25%) }
+
+    /* general rules */
+    body           { position: relative
+                   ; padding: 0
+                   ; margin: 0
+                   ; font-family:arial, sans-serif
+                   ; text-align: center
+                   ; color: black
+                   }
+    canvas         { margin: auto; position: relative }
+    h1             { padding: 20px
+                   ; margin: 0
+                   }
+  </style>
+</head>
+<body>
+  <h1>Wykresy</h1>
+  <div style="position: relative; ">
+    <span>x od :</span>
+    <input id="x1" type="text" size="2" value=""/>
+    <span> do :</span>
+    <input id="x2" type="text" size="2" value=""/>
+    <span>y od :</span>
+    <input id="y1" type="text" size="2" value=""/>
+    <span> do :</span>
+    <input id="y2" type="text" size="2" value=""/>
+    <span> f(x) :</span>
+    <input id="f" type="text" value=""/>
+    <span><button onclick="void calculate()">Poka¿ wykres</button></span>
+  </div>
+  <canvas id="canvas" width="400" height="400" style="border:2px solid"></canvas>
+
+  <script>
+function calculate() {
+ try {
+  var canvas = document.getElementById("canvas")
+  var context = canvas.getContext('2d')
+  canvas.width = canvas.width
+  var f = document.getElementById("f").value
+  var x1 = Number(document.getElementById("x1").value)
+  var x2 = Number(document.getElementById("x2").value)
+  var y1 = Number(document.getElementById("y1").value)
+  var y2 = Number(document.getElementById("y2").value)
+  var width = Number(canvas.width)
+  var ys = Array(width)
+  var xx = ""
+  var yy = ""
+  for (var j=0; j < width; j++) {
+    var x = j*(x2-x1)/width + x1
+    var y = eval("var x="+x+";" + f)
+    ys[j] = canvas.height - canvas.height*(y-y1)/(y2-y1)
+  }
+  context.beginPath()
+  context.moveTo(0,ys[0])
+  for (var j=1;j < canvas.width; j++) context.lineTo(j,ys[j])
+  context.stroke()
+ } catch(e) { var m="";for(p in e)m+=p+":"+e[p]+"\n";alert(m) }
+}
+//  var minValue = fResults.reduce(function(a,b,j,o){Math.min(a,b)})
+//  var maxValue = fResults.reduce(function(a,b,j,o){Math.max(a,b)})
+//  var fScaledResults = fResults.map(function(a,j,o){return a})
+//  var m=""
+//  for (var j=0;j < canvas.width; j++) m+=""+j+":"+fScaledResults[j]+"\n"
+//  alert(m)
+//  var fScaledResults = fResults.map(function(a,j,o){(a-minValue)/(maxValue-minValue)})
+//  alert(canvas.width)
+//  var m=""
+//  for (var j=0;j < canvas.width; j++) m+=""+j+":"+fScaledResults[j]+"\n"
+//  alert(m)
+</script>
+</body>
+</html>

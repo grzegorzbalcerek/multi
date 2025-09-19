@@ -1,0 +1,160 @@
+<xml version="1.0" encoding="utf-8"?>
+<html>
+<head>
+  <title>Gra w wê¿a</title>
+  <style type="text/css">
+    /* colors */
+    body                 { background-color: rgb(75%,75%,75%) }
+    h1                   { background-color: rgb(25%,100%,25%) }
+
+    /* general rules */
+    body           { position: relative
+                   ; padding: 0
+                   ; margin: 0
+                   ; font-family:arial, sans-serif
+                   ; text-align: center
+                   ; color: black
+                   }
+    canvas         { margin: auto; position: relative }
+    h1             { padding: 20px
+                   ; margin: 0
+                   }
+  </style>
+</head>
+<body>
+  <h1>Gra w wê¿a</h1>
+  <div style="position: relative; ">
+    <span>Czas miêdzy krokami (w milisekundach):</span>
+    <input id="gameTimeout" type="text" value="100"/>
+    <span>Co ile kroków dorasta ogon:</span>
+    <input id="gameLevel" type="text" value="5"/>
+    <span><button onclick="void startGame()">Rozpocznij grê</button></span>
+    <p>Punkty: <span id="gamePoints">0</span></p>
+    <p><span id="gameMsg">Gra nierozpoczêta</span></p>
+  </div>
+  <canvas id="canvas" width="400" height="400" style="border:2px solid"></canvas>
+
+  <script>
+function Direction() {
+  this.deltaX = 1
+  this.deltaY = 0
+}
+Direction.prototype.handleEvent = function(event) {
+  if(event.which == 37 && this.deltaX == 0) { // left
+    this.deltaX = -1
+    this.deltaY = 0
+  }
+  if(event.which == 38 && this.deltaY == 0) { // up
+    this.deltaX = 0
+    this.deltaY = -1
+  }
+  if(event.which == 39 && this.deltaX == 0) { // right
+    this.deltaX = 1
+    this.deltaY = 0
+  }
+  if(event.which == 40 && this.deltaY == 0) { // down
+    this.deltaX = 0
+    this.deltaY = 1
+  }
+}
+
+function Board() {
+  this.canvas = document.getElementById("canvas")
+  this.context = this.canvas.getContext('2d')
+  this.snakeSize = 10
+  this.width = Math.floor(this.canvas.width / this.snakeSize)
+  this.height = Math.floor(this.canvas.height / this.snakeSize)
+}
+Board.prototype.draw = function(x,y) { 
+  this.context.fillRect(x * this.snakeSize, y*this.snakeSize, this.snakeSize, this.snakeSize)
+}
+Board.prototype.clear = function(x,y) {
+  this.context.clearRect(x * this.snakeSize, y*this.snakeSize, this.snakeSize, this.snakeSize)
+}
+Board.prototype.clearBoard = function() {
+  this.context.clearRect(0,0,this.canvas.width,this.canvas.height)
+}
+var board = new Board()
+
+function Pos(xPos,yPos) {
+  this.x = xPos
+  this.y = yPos
+}
+Pos.prototype.draw = function() { board.draw(this.x,this.y) }
+Pos.prototype.clear = function() { board.clear(this.x,this.y) }
+
+function Snake() {
+  this.snakeBody = Array(1)
+  this.snakeBody[0] = new Pos(Math.floor(board.width/2),Math.floor(board.height/2))
+}
+Snake.prototype.head = function() { return this.snakeBody[0] }
+Snake.prototype.nextHead = function(deltaX,deltaY) { return new Pos(this.snakeBody[0].x + deltaX, this.snakeBody[0].y + deltaY) }
+Snake.prototype.isPartOfBody = function(position) {
+  return this.snakeBody.some(function(elem,indx,arr){ return elem.x == position.x && elem.y == position.y})
+}
+Snake.prototype.add = function(newPos) {
+  if (this.isPartOfBody(newPos)) return false
+  else {
+    this.snakeBody.unshift(newPos)
+    return true
+  }
+}
+Snake.prototype.cutTail = function() { return this.snakeBody.pop() }
+
+function Game() {
+  var dir = new Direction()
+  this.direction = dir
+  window.onkeydown = function(event){dir.handleEvent(event)}
+  this.snake = new Snake()
+  this.snake.head().draw()
+  this.timeout = document.getElementById("gameTimeout").value
+  this.level = document.getElementById("gameLevel").value
+  this.gamePoints = document.getElementById("gamePoints")
+  this.gameMsg = document.getElementById("gameMsg")
+  this.points = 0
+  this.step = 1
+  this.target = null;
+  this.generateTarget()
+}
+Game.prototype.generateTarget = function() {
+  var tentativeTarget = null;
+  do {
+    tentativeTarget = new Pos(Math.floor(Math.random()*board.width),Math.floor(Math.random()*board.height))
+  } while(this.snake.isPartOfBody(tentativeTarget))
+  this.target = tentativeTarget
+  this.target.draw()
+}
+Game.prototype.updatePoints = function() { this.gamePoints.innerHTML = this.points }
+Game.prototype.updateMsg = function(text) { this.gameMsg.innerHTML = text}
+Game.prototype.update = function() {
+  var nextHead = this.snake.nextHead(this.direction.deltaX,this.direction.deltaY)
+  if(nextHead.x < 0 || nextHead.y < 0 || nextHead.x >= board.width || nextHead.y >= board.height)
+  { this.updateMsg("Uderzenie w mur. Koniec gry") ; return false }
+  if (this.snake.add(nextHead)) {
+    this.snake.head().draw()
+    if(this.step++ % this.level != 0) this.snake.cutTail().clear()
+    if(nextHead.x == this.target.x && nextHead.y == this.target.y) {
+      this.points++;
+      this.updatePoints()
+      this.generateTarget()
+    }
+    return true;
+  }
+  else { this.updateMsg("Uderzenie w wê¿a. Koniec gry") ; return false }
+}
+function schedule(f, timeout) {
+  if (f()) setTimeout(function() { return schedule(f,timeout) }, timeout)
+}
+function startGame() {
+  board.clearBoard()
+  var game = null
+  game = new Game()
+  game.updatePoints(0)
+  game.updateMsg('Gra rozpoczêta z parametrami: czas miêdzy krokami: ' + game.timeout + ' co ile kroków dorasta ogon: ' + game.level)
+  schedule(function(){return game.update()},game.timeout)
+}
+
+
+</script>
+</body>
+</html>
