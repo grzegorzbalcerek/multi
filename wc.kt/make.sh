@@ -1,0 +1,3 @@
+
+kotlinc wc.kt
+
