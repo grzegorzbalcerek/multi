@@ -13,3 +13,4 @@ package-lock.json
 **/__pycache__/
 *.beam
 *.dump
+gmvn
