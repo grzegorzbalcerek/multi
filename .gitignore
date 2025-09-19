@@ -8,3 +8,6 @@ META-INF/
 node_modules/
 package-lock.json
 *.js
+.idea/
+**/*.pyc
+**/__pycache__/
