@@ -4,3 +4,5 @@ META-INF/
 *.swp
 *.tap
 *.lst
+*.class
+
